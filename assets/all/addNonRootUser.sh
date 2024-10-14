@@ -1,13 +1,13 @@
 #! /bin/bash
 
-if [[ -z "${INITIAL_USERNAME}" ]]; then
-  INITIAL_USERNAME="user"
+if [z "${INITIAL_USERNAME}"]; then
+  INITIAL_USERNAME="jayson"
 fi
 if [[ -z "${INITIAL_PASSWORD}" ]]; then
-  INITIAL_PASSWORD="userland"
+  INITIAL_PASSWORD="Redhex456"
 fi
 if [[ -z "${INITIAL_VNC_PASSWORD}" ]]; then
-  INITIAL_VNC_PASSWORD="userland"
+  INITIAL_VNC_PASSWORD="Redhex"
 fi
 
 if [ ! -d "/home/$INITIAL_USERNAME" ]; then
